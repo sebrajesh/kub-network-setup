@@ -17,6 +17,5 @@ spec:
           image: sebastr/kub-demo-users:latest
           env:
             - name: AUTH_ADDRESS
-              value: "10.96.151.81"
-
-        
+              #value: "10.96.151.81"
+              value: "auth-service.default.svc.cluster.local"
